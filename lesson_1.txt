@@ -1,0 +1,110 @@
+How did viewing a diff between two versions of a file help you see the 
+bug that was introduced?
+
+The two files, the old and 
+the new files were 
+checked using the FC command in
+ Windowns and the diff 
+command using the Git bash command prompt.
+The git bash prompt, showed + across lines that 
+were added to the new file and a - sign for lines removed. 
+Thus effectively helping us compare 
+between the two files.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+If we have saved a history of all the 
+changes that we have done on our code, we can 
+efficiently compare the files to see, the new lines
+added and maybe get back to the older version if that turned out to be 
+true. 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Cons include, the user error, forgeting to save or commit. 
+Pros include, you don't over commit and make sure only
+logical changes demands a commit. 
+
+Git lets you use any text editor, can be used offline, and user
+specifies check points. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+When handling multiple 
+files, its best we use Git to commit and also 
+effectively view the changes in multiple files within a 
+given repository. We can change just one file in the
+repository or all the files at once. Google docs, we have
+to identify one doc that we updated and compare with another doc 
+by looking at the time when the edit was made. This is doable by 
+not the best way. Git on other hand is very effective in comparing 
+multiple files. 
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log commang lists all the commits done 
+along with the files that were changed before that commit.
+The commit ID can be used with the git diff command 
+to compare two commits in time and identify lines that were
+added and subtracted i.e. green and red lines, with + and -
+sign respectively. This gives us a very easy way to compare files. 
+
+other commands include git log --stat (feature) gives some
+statistics on the files
+
+press 'q' to get our of the log 
+
+git diff old_filename new_filename
+
+
+How might using version control make you more confident to make changes that could break something?
+
+I can revert to any commit from the log by noting its ID and get back to the intial commit that we started off with 
+by remembering the ID. There is of course a better way to shift between commits without knowing the ID. we
+will focus on this later. We can look for errors and warning like the 
+Octopus - a strategy used to combine multiple versions
+Head or detached head state - Head is the commit we are currently on and detached head means to move to an older commit 
+
+
+ How Do You Want to Use Git?
+
+Git obviously is very helpful. Now I think I can compare a couple of my own matlab codes by creating a repository.
+ I dont have to start a new script every time  I want to wrtie and update on the existing code
+with a fear of breaking the existing and functional code. I am now ready to use Git and code effectively. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
