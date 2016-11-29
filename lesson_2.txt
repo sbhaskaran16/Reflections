@@ -38,6 +38,41 @@ gives us.
   git config --global user.name "sreevatsan"
 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area holds the files in a meta state before they
+can actually be subject to a commit after a logical change. 
+So first add the file to the staging area by using the 
+git add command followed by the file name. Then use the 
+git commit command to create a single commit for this particular 
+file per logical change. Then proceed with a seperate file from the 
+working directory to repeat the above steps to procees to the 
+staging area and subsequently commit the files accordingly. 
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+Lets say we start with a code, and start bulding it piece by piece. 
+After each piece we creat a commit. Any update or bug fix warrants a new
+commit to keep track of all the changes we make whilst we develop the code. 
+Now at any given point if we end up thinking of two ideas, but are not sure which one 
+we might end up retaining, its better for us to branch out and create two versions
+to play with and eventually work on them separately. Maybe we want to show one version of
+the code to some people and a different version for others. This again needs the help of branching.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+Using diagrams is the easiest way around understanding the 
+git structure. This allows us to see how each branch proceeds.
+The git log, command looks up from the latest commit ID all the 
+way back till the commit which has no parent commit. A parent 
+commit is the commit right before the the one under evaluation. 
+The diagram also helps us visualize, unreachable commits. It also 
+helps us see the progress with branches that we have. 
+
+
 
 
 
