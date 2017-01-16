@@ -2,6 +2,13 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Because when working with someone or a group on a project, we would like to see what changes or additions each person brings to the table and then decide if we want to keep a copy or not. 
 
+Reflect on Forks, Clones, Branches
+
+So when working on a local computer, We can manipulate
+with multiple versions of our code without disturbing the 
+original version. In github, we can clone a copy of a repository from another person, using fork. And clone by itself is used with our local computer to get a copy 
+of the git hub repository on our computer. This is often required to make a copy in our local repository and then make changes to the code. 
+
 
 
 
