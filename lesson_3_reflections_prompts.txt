@@ -1,45 +1,6 @@
-What happens when you initialize a repository? 
-Why do you need to do it?
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-
-We use the git init to initialize a new repository 
-in the folder we need to save or keep track of files 
-in versions. When we initialize a new repository we see 
-the following message 
-
-
-Initialized empty Git repository in D:/Git_Git_Hub_Udacity/Version_Control/.git/
-
-
-We need it when we want files in this directory 
-to be saved and any previous version or future versions 
-once commited have to be accessible to us. 
-
-However when we begin the initialization of a 
-repository, a commit is not made. We know that 
-git waits and only sets a commint when the user
-specfies one. Also the versions are stored as meta data
-in a .git file that can be seen only when we use 
-
-ls -a comman in the bash prompt. 
-
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-
-So after creating a .git folder using the init function on the command line, out next 
-task is to add files that we would like to add a commit on. 
-Git allows us to create a intermediate stage called the staging folder/area
-here we can add files from our working directory. We still have not added a commit. We 
-have just added files that will be saved together. So we can put together all the
-files that we think would have to be within a commit together. Seperate files that 
-do logically different tasks need to be commited seperately. It is this feature that git
-gives us. 
-
-  git config --global user.email "sreevatsan07@gmail.com"
-  git config --global user.name "sreevatsan"
-
-
-
-
+Because when working with someone or a group on a project, we would like to see what changes or additions each person brings to the table and then decide if we want to keep a copy or not. 
 
 
 
